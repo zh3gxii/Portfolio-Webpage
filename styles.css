@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Blaka+Ink&family=Monoton&family=Rubik+Moonrocks&display=swap');
 * {
     margin: 0;
 }
@@ -13,9 +14,12 @@ body {
   
 #logo {
     cursor: pointer;
+    
 }
-.fa-duotone {
+
+.fa-code {
     color:#1abc9c;
+    font-size: 3.0rem;
     border: 2px solid #fff;
     border-radius: 10px 10px 0 10px;
 }
@@ -26,8 +30,8 @@ body {
     height: 10vh;
     justify-content: space-between;
     align-items: center;
-    padding: 0px 20px;
-    background: linear-gradient(35deg, #ffcccc, rgba(0, 0, 0, 0.5));
+    padding: 0px 30px;
+    background: linear-gradient(3deg, #ffcccc, rgba(0, 0, 0, 0.5));
 }
 
 .nav-sub {
@@ -62,33 +66,41 @@ body {
     margin: 5px auto;
     background-color: #1abc9c;
     transition: 0.4s;
-}/*
-.navbar {
-    display: flex;
-    flex-wrap: wrap;
-    align-items: center;
-    justify-content: space-between;
-    background-color: inherit;
-    padding: 15px;
 }
-.navbar a {
-    text-decoration: none;
-    color: inherit;
+
+
+.box {
+  display: flex;
+  background: inherit;
 }
-.list {
-    list-style: none;
-    display: flex;
-    gap: 25px;
+
+.Leftpos {
+  width: 50%;
 }
-#toggler, .navbar label {
-    display: none;
-}*/
+
+.Leftpos img {
+  display: block;
+  height: 700px;
+  width: 100%;
+  border-top: 12px solid #e3f9e1;
+  border-right: 12px solid #bf9a9a;
+  border-radius: 0px 200px 0px 0px;
+  object-position: center;
+  object-fit: cover;
+}
+
+.Rightpos {
+  padding: 2rem;
+  width: 50%;
+  margin: auto;
+}
+
 .tooltip .tooltiptext {
     visibility: hidden;
     width: 250px;
     height: 150px;
     background: linear-gradient(35deg, #dedede, rgba(0, 0, 0, 0.5));
-    color: #1abc9c;
+    color: #fff;
     border-radius: 10px;
     padding: 5px 0;
     text-shadow: 2px 2px 5px #000;
@@ -112,9 +124,10 @@ h1 {
   font-size: 3.5em;
 }
 h2 {
-  color: #1abc9c;
+  color: #fff;
   font-size: 2em;
 }
+/*
 .img-responsive {
   height: 200px;
   width: 200px;
@@ -124,12 +137,12 @@ h2 {
   margin-top: 50px;
   border: 2px solid #1abc9c;
   border-radius: 50%;
-}
+}*/
 u {
     border-bottom: 10px solid #1abc9c;
     border-radius: 10px;
     color: #fff;
-    font-family: "Londrina Shadow", cursive;
+    font-family: "Monoton", cursive;
     text-shadow: 2px 7px 5px #000;
   }
 
@@ -231,7 +244,8 @@ footer {
         color: #fff;
         flex-direction: column;
         align-items: center;
-        background-color: rgb(0,0,0,0.75);
+        background: linear-gradient(35deg, #ffcccc, rgba(0, 0, 0, 0.5));
+        /*background-color: rgb(0,0,0,0.75);*/
         border-radius: 200px 0px 200px 200px;
         transition: transform 0.3s ease-in;
         transform: translate(-100%);
@@ -266,47 +280,52 @@ footer {
         align-items: center;
         cursor: pointer;
     }
-    /*
-    #toggler:checked ~ .menu {
-        max-height: 100%;
-    }*/
+    .box {
+      display: block;
+    }
+    .Leftpos img {
+      height: 200px;
+      width: 200px;
+      margin-left: 150px;
+      margin-right: auto;
+      margin-top: 50px;
+      border: 2px solid #1abc9c;
+      border-radius: 50%;
+    }
 
-    .infobox {
-        display: flex;
-    }
-    .info {
-        flex: 50%;
-        padding: 0px;
-        margin-top: 150px;
-    }
-    
-    .info {
-        flex: 50%;
-        margin-top: 10%;
-        padding: 10px;
-    }
-    
-  h1 {
-    font-size: 2.5em;
+    u {
+      border-bottom: 5px solid #1abc9c;
+      border-radius: 5px;
+      font-family: 'Tangerine', cursive;
+      text-shadow: 2px 7px 5px #dedede;
+ }
+   .line {
+      color: #f57595;
+      margin: 0px 0px 0px 0px;
+}
+   h1 {
+      font-size: 2.1em;
+      color: #fff;
   }
   h2 {
     color: #fff;
-    font-size: 1.5em;
-    margin: 50px;
+    font-size: 1.0em;
+    margin: 30px;
+  }
+  #socialInfo {
+    margin-left: -50px;
   }
   .sicon a {
     color: #000;
   }
   .sicon {
-    margin: 50px 55px 50px 0px;
-    padding: auto;
     text-align: center;
     color: #000;
     font-size: 40px;
   }
   .sicon li {
     display: inline-block;
-    margin: 10px;
+    margin: 5px;
     padding: auto;
   }
   .sicon a:hover {
@@ -315,12 +334,5 @@ footer {
   .myfooter {
     margin-top: 100px;
   }
-  /*
- u {
-      border-bottom: 5px solid #000;
-      border-radius: 5px;
-      color: #1abc9c;
-      font-family: "Londrina Shadow", cursive;
-      text-shadow: 2px 7px 5px #000;
- }  */ 
+   
 }

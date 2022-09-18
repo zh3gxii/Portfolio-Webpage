@@ -19,7 +19,6 @@ body {
 
 .fa-code {
     color:#1abc9c;
-    font-size: 3.0rem;
     border: 2px solid #fff;
     border-radius: 10px 10px 0 10px;
 }
@@ -286,7 +285,7 @@ footer {
     .Leftpos img {
       height: 200px;
       width: 200px;
-      margin-left: 150px;
+      margin-left: auto;
       margin-right: auto;
       margin-top: 50px;
       border: 2px solid #1abc9c;

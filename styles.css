@@ -294,44 +294,44 @@ footer {
         border-radius: 50%;
       
       }
-    u {
+  u {
       border-bottom: 5px solid #1abc9c;
       border-radius: 5px;
-      font-family: 'Tangerine', cursive;
+      font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif cursive;
       text-shadow: 2px 7px 5px #dedede;
  }
    .line {
-      color: #f57595;
-      margin: 0px 0px 0px 0px;
+      color: #000;
+      margin: auto;
 }
    h1 {
-      font-size: 2.1em;
+      font-size: 1.3em;
+      font-weight: bold;
       color: #fff;
-  }
-  h2 {
+  }  h2 {
     color: #fff;
     font-size: 1.0em;
     margin: 30px;
   }
   #socialInfo {
-    margin: -15px;
+    display: inline-block;
+    margin: 0px;
   }
-  .sicon a {
-    color: #000;
-  }
-  .sicon {
+  #socialInfo {
+    margin: auto;
+    padding: auto;
     text-align: center;
     color: #000;
-    font-size: 40px;
+    font-size: 20px;
   }
-  .sicon li {
+  #socialInfo li {
     display: inline-block;
-    margin: 5px;
+    margin: 1px;
     padding: auto;
   }
-  .sicon a:hover {
+  #socialInfo a:hover {
     color: #1abc9c;
-  }
+  }  
   .myfooter {
     margin-top: 100px;
   }

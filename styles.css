@@ -232,9 +232,7 @@ footer {
   } 
  */
 @media only screen and (max-width:600px){
-    * {
-        overflow: hidden;
-    }
+    
     .nav-sub {
         position: absolute;
         top: 10vh;
@@ -289,8 +287,6 @@ footer {
     }
     .Leftpos img{
         display: block;
-        margin-left: 0px;
-        margin-right: 0px;
         margin: auto;
         height: 200px;
         width: 200px;

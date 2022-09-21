@@ -232,9 +232,9 @@ footer {
   } 
  */
 @media only screen and (max-width:600px){
-    /* {
+    * {
         overflow: hidden;
-    }*/
+    }
     .nav-sub {
         position: absolute;
         top: 10vh;

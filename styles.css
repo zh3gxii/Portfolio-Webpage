@@ -313,27 +313,20 @@ footer {
     font-size: 1.0em;
     margin: 30px;
   }
-  #socialInfo {
-    display: inline-block;
-    margin: 0px;
-  }
-  #socialInfo {
-    margin: auto;
+  .sicon  {
+    display: flex;
+    flex-direction: row-reverse;
+    margin: auto -45px;
     padding: auto;
-    text-align: center;
-    color: #000;
-    font-size: 20px;
+    align-items: center;
+    font-size: 40px;
   }
-  #socialInfo li {
-    display: inline-block;
-    margin: 1px;
-    padding: auto;
-  }
-  #socialInfo a:hover {
+  .sicon a:hover {
     color: #1abc9c;
   }  
-  .myfooter {
+   .myfooter {
     margin-top: 100px;
+    text-align: center;
   }
    
 }

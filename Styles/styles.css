@@ -1,6 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Blaka+Ink&family=Monoton&family=Rubik+Moonrocks&display=swap');
-@import "Experience.css";
-@import "Contact.css";
+@import "experience.css";
+@import "contact.css";
 * {
     margin: 0;
 }

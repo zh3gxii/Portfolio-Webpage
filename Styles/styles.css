@@ -340,12 +340,12 @@ h2 {
         border: 2px outset #000;
         border-radius: 50%;
       
-      }
+      }/*
  .mname {
       font-size: 1.3em;
       margin-top: auto;
       text-align: center;
- }
+ }*/
   .line {
       border-bottom: 5px solid #1abc9c;
       border-radius: 5px;

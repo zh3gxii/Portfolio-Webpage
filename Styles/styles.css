@@ -211,7 +211,7 @@ h2 {
   color: #dedede;
 }
   
- @media screen and (max-width: 600px){
+ @media only screen and (max-width: 600px){
     .nav-sub {
         position: absolute;
         top: 10vh;
@@ -265,14 +265,14 @@ h2 {
       flex-direction: column;
       justify-content: center;
       align-items: center,
-    }/*
+    }
     .Leftpos {
-      margin: auto;
-      padding: auto;
+      width: 100%;
       text-align: center;
-    }*/
+    }
     .Leftpos img {
-        margin: 50px 550px auto 150px;
+        margin: 0 auto;
+        display: block;
         background-color: #1abc9c;
         height: 200px;
         width: 200px;

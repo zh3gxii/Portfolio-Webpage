@@ -1,14 +1,4 @@
 
-/*
-body {
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-    background: #f8f4f2; 
-}
- 
- .Container-Grid > img {
-    height: 100px;
-    width: 100px;
-}*/
 #logo {
     cursor: pointer;
     
@@ -172,7 +162,6 @@ figcaption {
         border-radius: 10px;
     }
     footer h3{
-        background-color: #1abc9c;
         padding: 10px;
         color: #fff;
         font-style: italic;

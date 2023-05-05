@@ -128,7 +128,6 @@ body {
   object-fit: cover;
 }
 
-
 .Rightpos {
   padding: 2rem;
   width: 50%;
@@ -164,7 +163,7 @@ h2 {
   text-align: center;
 }
 h1 {
-  font-size: 3.5em;
+  font-size: 3.0em;
 }
 h2 {
   color: #fff;
@@ -283,22 +282,30 @@ h2 {
         border-radius: 50%;
       
       }
- .mname {
-      font-size: 1.3em;
-      margin: 20px;
-      text-align: center;
-      display: block;
-      white-space: normal;
- }
+     .ProfileName {
+        font-size: 1.3em;
+        text-align: center;
+        display: block;
+        color: #fff;
+     }
   .line {
       border-bottom: 5px solid #1abc9c;
       border-radius: 5px;
-      font-size:1.3em;
+      font-size:1.0em;
       font-family: Arial;
       text-shadow: 2px 7px 5px #dedede;
       color: #000;
       border-bottom: 10px solid #1abc9c;
 } 
+     /*
+ .mname {
+      font-size: 1.3em;
+      margin: auto;
+      text-align: center;
+      display: block;
+      white-space: normal;
+ }
+ 
    h1 {
       font-weight: bold;
       color: #fff;
@@ -308,7 +315,7 @@ h2 {
     font-size: 1.3em;
     margin: auto;
   }
-  
+  */
   .sicon  {
     display: flex;
     flex-direction: row-reverse;
@@ -324,7 +331,6 @@ h2 {
     color: #1abc9c;
   }
   .myfooter {
-    margin-top: 50px;
     text-align: center;
     visibility: visible;
   }

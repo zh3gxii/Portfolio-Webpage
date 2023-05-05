@@ -134,7 +134,10 @@ body {
   width: 50%;
   margin: auto;
 }
-
+.mname {
+  text-align: center;
+  white-space: nowrap;
+}
 .tooltip .tooltiptext {
     visibility: hidden;
     width: 250px;
@@ -211,7 +214,7 @@ h2 {
   color: #dedede;
 }
   
- @media only screen and (max-width: 600px){
+ @media only screen and (max-width: 768px){
     .nav-sub {
         position: absolute;
         top: 10vh;
@@ -282,8 +285,10 @@ h2 {
       }
  .mname {
       font-size: 1.3em;
-      margin-top: 20px;
+      margin: 20px;
       text-align: center;
+      display: block;
+      white-space: normal;
  }
   .line {
       border-bottom: 5px solid #1abc9c;

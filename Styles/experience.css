@@ -41,7 +41,6 @@ a {
 .Container-Grid {
     display: grid;
     grid-template-areas: 'hd hd hd';
-    Place-items: center;
     grid-gap: 10px;
     padding: 30px;
     

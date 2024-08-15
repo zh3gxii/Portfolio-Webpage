@@ -42,7 +42,6 @@ a {
     display: grid;
     grid-template-areas: 'hd hd hd';
     Place-items: center;
-    height: 100vh;
     grid-gap: 10px;
     padding: 30px;
     
